@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC1F64CB1CE5697300502FB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1F64CA1CE5697300502FB1 /* main.m */; };
+		EC1F64CE1CE5697300502FB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1F64CD1CE5697300502FB1 /* AppDelegate.m */; };
+		EC1F64D11CE5697300502FB1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1F64D01CE5697300502FB1 /* ViewController.m */; };
+		EC1F64D41CE5697300502FB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC1F64D21CE5697300502FB1 /* Main.storyboard */; };
+		EC1F64D61CE5697300502FB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC1F64D51CE5697300502FB1 /* Assets.xcassets */; };
+		EC1F64D91CE5697300502FB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC1F64D71CE5697300502FB1 /* LaunchScreen.storyboard */; };
+		EC1F64E41CE5697300502FB1 /* CHAutoSizeLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1F64E31CE5697300502FB1 /* CHAutoSizeLabelTests.m */; };
+		EC1F64EF1CE5697300502FB1 /* CHAutoSizeLabelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1F64EE1CE5697300502FB1 /* CHAutoSizeLabelUITests.m */; };
+		EC1F64FD1CE56AD100502FB1 /* autoSizeLabel.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC1F64FC1CE56AD100502FB1 /* autoSizeLabel.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC1F64E01CE5697300502FB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC1F64BE1CE5697300502FB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC1F64C51CE5697300502FB1;
+			remoteInfo = CHAutoSizeLabel;
+		};
+		EC1F64EB1CE5697300502FB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC1F64BE1CE5697300502FB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC1F64C51CE5697300502FB1;
+			remoteInfo = CHAutoSizeLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC1F64C61CE5697300502FB1 /* CHAutoSizeLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CHAutoSizeLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC1F64CA1CE5697300502FB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC1F64CC1CE5697300502FB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC1F64CD1CE5697300502FB1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC1F64CF1CE5697300502FB1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC1F64D01CE5697300502FB1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC1F64D31CE5697300502FB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC1F64D51CE5697300502FB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC1F64D81CE5697300502FB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC1F64DA1CE5697300502FB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC1F64DF1CE5697300502FB1 /* CHAutoSizeLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CHAutoSizeLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC1F64E31CE5697300502FB1 /* CHAutoSizeLabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHAutoSizeLabelTests.m; sourceTree = "<group>"; };
+		EC1F64E51CE5697300502FB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC1F64EA1CE5697300502FB1 /* CHAutoSizeLabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CHAutoSizeLabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC1F64EE1CE5697300502FB1 /* CHAutoSizeLabelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHAutoSizeLabelUITests.m; sourceTree = "<group>"; };
+		EC1F64F01CE5697300502FB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC1F64FC1CE56AD100502FB1 /* autoSizeLabel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = autoSizeLabel.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC1F64C31CE5697300502FB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1F64DC1CE5697300502FB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1F64E71CE5697300502FB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC1F64BD1CE5697300502FB1 = {
+			isa = PBXGroup;
+			children = (
+				EC1F64C81CE5697300502FB1 /* CHAutoSizeLabel */,
+				EC1F64E21CE5697300502FB1 /* CHAutoSizeLabelTests */,
+				EC1F64ED1CE5697300502FB1 /* CHAutoSizeLabelUITests */,
+				EC1F64C71CE5697300502FB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC1F64C71CE5697300502FB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC1F64C61CE5697300502FB1 /* CHAutoSizeLabel.app */,
+				EC1F64DF1CE5697300502FB1 /* CHAutoSizeLabelTests.xctest */,
+				EC1F64EA1CE5697300502FB1 /* CHAutoSizeLabelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC1F64C81CE5697300502FB1 /* CHAutoSizeLabel */ = {
+			isa = PBXGroup;
+			children = (
+				EC1F64CC1CE5697300502FB1 /* AppDelegate.h */,
+				EC1F64CD1CE5697300502FB1 /* AppDelegate.m */,
+				EC1F64CF1CE5697300502FB1 /* ViewController.h */,
+				EC1F64D01CE5697300502FB1 /* ViewController.m */,
+				EC1F64FC1CE56AD100502FB1 /* autoSizeLabel.xib */,
+				EC1F64D21CE5697300502FB1 /* Main.storyboard */,
+				EC1F64D51CE5697300502FB1 /* Assets.xcassets */,
+				EC1F64D71CE5697300502FB1 /* LaunchScreen.storyboard */,
+				EC1F64DA1CE5697300502FB1 /* Info.plist */,
+				EC1F64C91CE5697300502FB1 /* Supporting Files */,
+			);
+			path = CHAutoSizeLabel;
+			sourceTree = "<group>";
+		};
+		EC1F64C91CE5697300502FB1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC1F64CA1CE5697300502FB1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC1F64E21CE5697300502FB1 /* CHAutoSizeLabelTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC1F64E31CE5697300502FB1 /* CHAutoSizeLabelTests.m */,
+				EC1F64E51CE5697300502FB1 /* Info.plist */,
+			);
+			path = CHAutoSizeLabelTests;
+			sourceTree = "<group>";
+		};
+		EC1F64ED1CE5697300502FB1 /* CHAutoSizeLabelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC1F64EE1CE5697300502FB1 /* CHAutoSizeLabelUITests.m */,
+				EC1F64F01CE5697300502FB1 /* Info.plist */,
+			);
+			path = CHAutoSizeLabelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC1F64C51CE5697300502FB1 /* CHAutoSizeLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC1F64F31CE5697300502FB1 /* Build configuration list for PBXNativeTarget "CHAutoSizeLabel" */;
+			buildPhases = (
+				EC1F64C21CE5697300502FB1 /* Sources */,
+				EC1F64C31CE5697300502FB1 /* Frameworks */,
+				EC1F64C41CE5697300502FB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CHAutoSizeLabel;
+			productName = CHAutoSizeLabel;
+			productReference = EC1F64C61CE5697300502FB1 /* CHAutoSizeLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC1F64DE1CE5697300502FB1 /* CHAutoSizeLabelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC1F64F61CE5697300502FB1 /* Build configuration list for PBXNativeTarget "CHAutoSizeLabelTests" */;
+			buildPhases = (
+				EC1F64DB1CE5697300502FB1 /* Sources */,
+				EC1F64DC1CE5697300502FB1 /* Frameworks */,
+				EC1F64DD1CE5697300502FB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC1F64E11CE5697300502FB1 /* PBXTargetDependency */,
+			);
+			name = CHAutoSizeLabelTests;
+			productName = CHAutoSizeLabelTests;
+			productReference = EC1F64DF1CE5697300502FB1 /* CHAutoSizeLabelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC1F64E91CE5697300502FB1 /* CHAutoSizeLabelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC1F64F91CE5697300502FB1 /* Build configuration list for PBXNativeTarget "CHAutoSizeLabelUITests" */;
+			buildPhases = (
+				EC1F64E61CE5697300502FB1 /* Sources */,
+				EC1F64E71CE5697300502FB1 /* Frameworks */,
+				EC1F64E81CE5697300502FB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC1F64EC1CE5697300502FB1 /* PBXTargetDependency */,
+			);
+			name = CHAutoSizeLabelUITests;
+			productName = CHAutoSizeLabelUITests;
+			productReference = EC1F64EA1CE5697300502FB1 /* CHAutoSizeLabelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC1F64BE1CE5697300502FB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Chin-Hui Hsieh";
+				TargetAttributes = {
+					EC1F64C51CE5697300502FB1 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					EC1F64DE1CE5697300502FB1 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = EC1F64C51CE5697300502FB1;
+					};
+					EC1F64E91CE5697300502FB1 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = EC1F64C51CE5697300502FB1;
+					};
+				};
+			};
+			buildConfigurationList = EC1F64C11CE5697300502FB1 /* Build configuration list for PBXProject "CHAutoSizeLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC1F64BD1CE5697300502FB1;
+			productRefGroup = EC1F64C71CE5697300502FB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC1F64C51CE5697300502FB1 /* CHAutoSizeLabel */,
+				EC1F64DE1CE5697300502FB1 /* CHAutoSizeLabelTests */,
+				EC1F64E91CE5697300502FB1 /* CHAutoSizeLabelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC1F64C41CE5697300502FB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1F64D91CE5697300502FB1 /* LaunchScreen.storyboard in Resources */,
+				EC1F64D61CE5697300502FB1 /* Assets.xcassets in Resources */,
+				EC1F64FD1CE56AD100502FB1 /* autoSizeLabel.xib in Resources */,
+				EC1F64D41CE5697300502FB1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1F64DD1CE5697300502FB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1F64E81CE5697300502FB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC1F64C21CE5697300502FB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1F64D11CE5697300502FB1 /* ViewController.m in Sources */,
+				EC1F64CE1CE5697300502FB1 /* AppDelegate.m in Sources */,
+				EC1F64CB1CE5697300502FB1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1F64DB1CE5697300502FB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1F64E41CE5697300502FB1 /* CHAutoSizeLabelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1F64E61CE5697300502FB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1F64EF1CE5697300502FB1 /* CHAutoSizeLabelUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC1F64E11CE5697300502FB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC1F64C51CE5697300502FB1 /* CHAutoSizeLabel */;
+			targetProxy = EC1F64E01CE5697300502FB1 /* PBXContainerItemProxy */;
+		};
+		EC1F64EC1CE5697300502FB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC1F64C51CE5697300502FB1 /* CHAutoSizeLabel */;
+			targetProxy = EC1F64EB1CE5697300502FB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC1F64D21CE5697300502FB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC1F64D31CE5697300502FB1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC1F64D71CE5697300502FB1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC1F64D81CE5697300502FB1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC1F64F11CE5697300502FB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC1F64F21CE5697300502FB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC1F64F41CE5697300502FB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CHAutoSizeLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.div.clydehsieh.CHAutoSizeLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC1F64F51CE5697300502FB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CHAutoSizeLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.div.clydehsieh.CHAutoSizeLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC1F64F71CE5697300502FB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CHAutoSizeLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.div.clydehsieh.CHAutoSizeLabelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CHAutoSizeLabel.app/CHAutoSizeLabel";
+			};
+			name = Debug;
+		};
+		EC1F64F81CE5697300502FB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CHAutoSizeLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.div.clydehsieh.CHAutoSizeLabelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CHAutoSizeLabel.app/CHAutoSizeLabel";
+			};
+			name = Release;
+		};
+		EC1F64FA1CE5697300502FB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CHAutoSizeLabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.div.clydehsieh.CHAutoSizeLabelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CHAutoSizeLabel;
+			};
+			name = Debug;
+		};
+		EC1F64FB1CE5697300502FB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CHAutoSizeLabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.div.clydehsieh.CHAutoSizeLabelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CHAutoSizeLabel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC1F64C11CE5697300502FB1 /* Build configuration list for PBXProject "CHAutoSizeLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1F64F11CE5697300502FB1 /* Debug */,
+				EC1F64F21CE5697300502FB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC1F64F31CE5697300502FB1 /* Build configuration list for PBXNativeTarget "CHAutoSizeLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1F64F41CE5697300502FB1 /* Debug */,
+				EC1F64F51CE5697300502FB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC1F64F61CE5697300502FB1 /* Build configuration list for PBXNativeTarget "CHAutoSizeLabelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1F64F71CE5697300502FB1 /* Debug */,
+				EC1F64F81CE5697300502FB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC1F64F91CE5697300502FB1 /* Build configuration list for PBXNativeTarget "CHAutoSizeLabelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1F64FA1CE5697300502FB1 /* Debug */,
+				EC1F64FB1CE5697300502FB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC1F64BE1CE5697300502FB1 /* Project object */;
+}
